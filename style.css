@@ -6,10 +6,8 @@
 }
 
 <p><img src="https://github.com/apanchbhaya/cameraapp/blob/master/camera.jpg"  alt="cartoon camera" style="float:right;width:42px;height:42px;">
-The image will float to the right of the text.</p>
+</p>
 
-<p><img src="https://github.com/apanchbhaya/cameraapp/blob/master/camera.jpg"  alt="cartoon camera" style="float:left;width:42px;height:42px;">
-The image will float to the left of the text.</p>
 
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;

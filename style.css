@@ -15,8 +15,11 @@
     filter: FlipH;
 }
 #camera--trigger{
-    width: 200px;
-    background-color: black;
+
+<image id=""camera.jpg"" height="42" width="42">>
+
+    width: 300px;
+    background-color: pink;
     color: white;
     font-size: 16px;
     border-radius: 30px;

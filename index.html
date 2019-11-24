@@ -11,20 +11,27 @@
 <body>
 
 
-    <!-- Camera -->
-    <main id="camera">
+    
 
          <map name="cameraloading">
-            <img src="https://i.pinimg.com/originals/e6/a0/0b/e6a00bf6480b679ab9b806e235597815.png" alt="cartoon camera" height="90" width="120" >
+            <img src="https://i.pinimg.com/originals/e6/a0/0b/e6a00bf6480b679ab9b806e235597815.png" alt="cartoon camera" height="90" width="120"
+            position = absolute;
+      top = 60px;
+      left = 80px;
+      z-index= 2; >
 
-
+<!-- Camera -->
+    <main id="camera">
         <!-- Camera sensor -->
-        <canvas id="camera--sensor"></canvas>
+        <canvas id="camera--sensor"></canvas
+            z-index: 1;>
 
         <!-- Camera view -->
-        <video id="camera--view" autoplay playsinline></video>
+        <video id="camera--view" autoplay playsinline></video
+            z-index: 1;>
         <!-- Camera output -->
-        <img src="//:0" alt="" id="camera--output">
+        <img src="//:0" alt="" id="camera--output"
+        z-index: 1;>
 
 
         <!-- Camera trigger -->

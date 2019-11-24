@@ -5,15 +5,9 @@
   width: 100%;
 }
 
- #cameraloading{
+ 
 
-      position: relative;
-      top: 260px;
-      left: 380px;
-       z-index:3;
-    }
-
-#camera, #camera--view, #camera--sensor, c#amera--output{
+#camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
     width: 100%;

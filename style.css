@@ -10,6 +10,7 @@
       position: relative;
       top: 260px;
       left: 380px;
+       z-index:3;
     }
 
 #camera, #camera--view, #camera--sensor, c#amera--output{

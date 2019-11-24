@@ -5,11 +5,11 @@
   width: 100%;
 }
 
- #ccameraloading{
+ #cameraloading{
 
-      position: absolute;
-      top: 60px;
-      left: 80px;
+      position: relative;
+      top: 260px;
+      left: 380px;
     }
 
 #camera, #camera--view, #camera--sensor, c#amera--output{

@@ -3,13 +3,14 @@
   padding: 0;
   height: 100%;
   width: 100%;
+  z-index: 1;
 }
 
  #cameraloading{
 
       position: absolute;
-      top: 60px;
-      left: 80px;
+      top: 160px;
+      left: 280px;
       z-index: 2;
     }
 
@@ -25,6 +26,7 @@
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
     filter: FlipH;
+    z-index: 1;
 }
 #camera--trigger{
 

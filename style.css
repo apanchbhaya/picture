@@ -19,7 +19,7 @@
     transform: scaleX(-1);
     filter: FlipH;
 }
-#camera--trigger,#camera--image{
+#camera--trigger,{
 
 
 
@@ -37,7 +37,7 @@
     left: calc(50% - 100px);
     z-index: 1;
 }
-.taken{
+.taken,#camera--image{
     height: 100px!important;
     width: 100px!important;
     transition: all 0.5s ease-in;

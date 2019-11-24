@@ -7,6 +7,15 @@
 
  
 
+#camera--loading {
+
+   position: fixed;
+   
+   top:-80px;
+  left:50px; 
+  z-index: 3;
+}
+
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;

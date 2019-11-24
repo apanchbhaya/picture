@@ -7,14 +7,7 @@
 
  
 
-#camera--loading {
 
-   position: fixed;
-   
-   top:-80px;
-  left:50px; 
-  z-index: 3;
-}
 
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
@@ -26,7 +19,13 @@
     transform: scaleX(-1);
     filter: FlipH;
 }
-#camera--trigger{
+#camera--trigger,#camera--loading{
+
+
+
+  
+ 
+  
 
 
 

@@ -6,7 +6,7 @@ const constraints = {
 const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
-    cameraTrigger = document.querySelector("#camera--trigger")
+    cameraTrigger = document.querySelector("#camera--trigger,#camera--image")
 // Access the device camera and stream to cameraView
 function cameraStart() {
     navigator.mediaDevices
@@ -14,11 +14,7 @@ function cameraStart() {
         .then(function(stream) {
         track = stream.getTracks()[0];
         cameraView.srcObject = stream;
-        
     })
-    .catch(function(error) {
-        console.error("Oops. Something is broken.", error);
-    });
 }
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
